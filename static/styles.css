@@ -1,0 +1,484 @@
+html {
+  background-color: black;
+  color: white;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Playwrite DE Grund", cursive;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Lora", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  color: #917427;
+}
+.home-page {
+  padding: 10px;
+
+  background-image: url("/static/images/bd.jpg");
+  background-size: cover;
+  background-position: top;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.navbar {
+  padding: 10px;
+
+  display: grid;
+  grid-template-columns: 2fr 4fr;
+}
+.navbar-logo {
+  padding: 10px;
+
+  align-content: center;
+  justify-content: center;
+  text-align: center;
+}
+.navbar-logo img {
+  width: 200px;
+  height: 250px;
+}
+
+.navbar-logo img {
+  align-content: center;
+}
+.navbar-items {
+  padding: 10px;
+}
+.navbar-items ul {
+  display: flex;
+}
+.navbar-items ul li {
+  list-style: none;
+  flex-basis: 300px;
+  text-align: center;
+}
+
+.navbar-items ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.navbar-items ul li a:hover{
+    color: #917427;
+    font-size: 20px;
+    transition: 1s;
+}
+.hompageText {
+  padding: 10px;
+
+  width: 80%;
+  margin: auto;
+}
+.h2 {
+  padding: 10px;
+
+  width: fit-content;
+}
+
+.h2 h2 {
+  font-size: 2.5rem;
+  margin: 0;
+  color: white;
+}
+.h1 {
+  padding: 10px;
+
+  width: fit-content;
+}
+
+.h1 h1 {
+  font-size: 4rem;
+  margin: 0;
+  letter-spacing: 10px;
+  color: white;
+}
+.bookAppointmemt {
+  padding: 10px;
+
+  border-radius: 8px;
+  background-color: white;
+  width: fit-content;
+}
+
+.bookAppointmemt:hover {
+  color: #917427;
+  background-color: transparent;
+  border: solid #917427 1px;
+  transition: all ease 0.2s;
+}
+
+.bookAppointmemt a {
+  text-decoration: none;
+  padding: 5px;
+  font-size: 20px;
+  color: #917427;
+  font-weight: 600;
+}
+.about {
+  padding: 10px;
+}
+.about-items {
+  padding: 10px;
+
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  width: 80%;
+  margin: auto;
+  align-items: center;
+}
+.About-text {
+  padding: 10px;
+}
+.about-h2 {
+  padding: 10px;
+}
+
+.about-h2 h2 {
+  font-size: 2rem;
+  margin: 0;
+  text-decoration: underline;
+}
+
+.about h1,
+.vision h1,
+.mission h1,
+.team h1,
+.contact h1,
+.footer-text h1 {
+  text-align: center;
+  font-size: 3rem;
+  text-decoration: underline;
+}
+
+.about-Paragraph {
+  padding: 10px;
+}
+
+.about-Paragraph p {
+  font-size: 12px;
+}
+.about-Image {
+  padding: 10px;
+}
+
+.about-Image img {
+  width: 100%;
+}
+.vision {
+  padding: 10px;
+}
+.vision-items {
+  padding: 10px;
+
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  width: 80%;
+  margin: auto;
+  align-items: center;
+}
+.vision-image {
+  padding: 10px;
+}
+
+.vision-image img {
+  width: 100%;
+}
+.vision-text {
+  padding: 10px;
+}
+.vission-message {
+  border: solid rgba(255, 255, 255, 0.349) 2px;
+  padding: 10px;
+
+  border-radius: 8px;
+}
+
+.vission-message p {
+  font-size: 12px;
+}
+.mission {
+  padding: 10px;
+
+  display: flex;
+  flex-direction: column;
+}
+.mission-text-content {
+  padding: 10px;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.mission-messages {
+  padding: 10px;
+}
+.mission-txt {
+  border-radius: 8px;
+  padding: 10px;
+
+  border: 2px solid rgba(255, 255, 255, 0.349);
+}
+
+.mission-txt p {
+  font-size: 12px;
+}
+.mission-images {
+  padding: 10px;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.mission-image {
+  padding: 10px;
+}
+
+.mission-image img {
+  width: 100%;
+}
+.team {
+  padding: 10px;
+}
+
+.teams {
+  padding: 10px;
+
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+}
+.out-team {
+  padding: 10px;
+  margin: auto;
+}
+
+.contact {
+  padding: 10px;
+
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+.contact-image {
+  padding: 10px;
+}
+
+.contact-image img {
+  width: 100%;
+}
+.contact-text {
+  padding: 10px;
+
+  width: fit-content;
+}
+.contact-phrase {
+  padding: 10px;
+}
+
+.contact-phone {
+  padding: 10px;
+}
+.contact-mail {
+  padding: 10px;
+}
+.location {
+  padding: 10px;
+}
+#map {
+  height: 500px;
+  width: 100%;
+}
+.contact-mail a,
+.contact-phone a,
+.location a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+}
+.image {
+  padding: 10px;
+}
+.footer {
+  padding: 10px;
+
+  text-align: center;
+}
+.footer-text .h1 {
+  text-align: center;
+}
+.image-footer {
+  padding: 10px;
+}
+.image-footer img {
+  width: 70%;
+}
+.footer-text {
+  padding: 10px;
+}
+.copyright {
+  padding: 10px;
+}
+
+.menu {
+  display: none;
+  flex-direction: column;
+  background-color: #333;
+  position: absolute;
+  top: 50px;
+  right: 0;
+  width: 200px;
+}
+
+.burger {
+  display: none;
+}
+.menu a {
+  padding: 15px;
+  text-decoration: none;
+  color: white;
+  background-color: #333;
+  text-align: center;
+}
+.menu a:hover {
+  background-color: #575757;
+}
+.burger {
+  cursor: pointer;
+  padding: 10px;
+  background-color: #333;
+  color: white;
+  font-size: 18px;
+  border: none;
+}
+.burger:hover {
+  background-color: #575757;
+}
+
+/* media queries */
+
+@media (max-width: 425px) {
+  p {
+    text-align: justify;
+  }
+  .h1 h1 {
+    font-size: 100px;
+  }
+
+  .h2 h2 {
+    font-size: 20px;
+  }
+
+  .bookAppointmemt a {
+    font-size: 12px;
+  }
+
+  .team h1,
+  .mission h1,
+  .vision h1,
+  .contact h1 {
+    font-size: 1.7rem;
+  }
+
+  #map {
+    height: 100px;
+    width: 50%;
+  }
+}
+@media (max-width: 768px) {
+  .navbar-logo img {
+    width: 150px;
+    height: 155px;
+  }
+
+  .contact-phone a{
+    font-size: 15px;
+  }
+  .contact-mail a{
+    font-size: 15px;
+  }
+  .location a{
+    font-size: 15px;
+  }
+  .contact-phrase p{
+    font-size: 12px;
+  }
+  .about-items,
+  .vision-items,
+  .contact {
+    display: block;
+  }
+  .mission-text-content {
+    display: block;
+  }
+  .h1 h1 {
+    font-size: 2rem;
+  }
+
+  .h2 h2 {
+    font-size: 1.5rem;
+  }
+
+  .navbar-items ul {
+    display: none;
+  }
+
+  .burger {
+    display: block;
+    position: fixed;
+    right: 0px;
+    top: 0;
+
+  }
+  p {
+    text-align: justify;
+  }
+}
+
+@media (max-width: 1024px) {
+  .about-items,
+  .vision-items,
+  .contact {
+    display: block;
+  }
+  .contact-image img,
+  .about-Image img,
+  .about-Image img,
+  .vision-image img {
+    width: 70%;
+  }
+
+  .contact-image,
+  .about-Image,
+  .about-Image,
+  .vision-image {
+    text-align: center;
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+body {
+  opacity: 0;
+  animation: fadeIn 2s ease-out forwards;
+}
